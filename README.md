@@ -49,6 +49,10 @@ The output data and format depends on the service endpoint.
      Every element of the array is an object containing, as members, the
      fields corresponding to the CSV columns above.                                                                
                                                                            
+ - /csv/download
+      
+     This service returns all invoices in the database as a downloadable CSV file (MIME type 'text/csv').                                       
+
 ## Notes and todo's
 
 The service is implemented as a SpringBoot application, using an SQL database to store the data.
